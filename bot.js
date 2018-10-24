@@ -25,14 +25,6 @@ client.on('ready', () => {
 
 
 
-client.on('ready', () => {
-    setInterval(function(){
-        client.guilds.get('403239647066587146').roles.find('name', 'Disco').edit({color: 'RANDOM'})
-    },5000);
-  
-
-})
-
 
 
 
