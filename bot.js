@@ -7,7 +7,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     setInterval(function(){
         client.guilds.get('493842175491309608').roles.find('name', 'Disco').edit({color: 'RANDOM'})
-    },5000);
+    },12000);
   
 
 })
@@ -18,7 +18,7 @@ client.on('ready', () => {
 client.on('ready', () => {
     setInterval(function(){
         client.guilds.get('403239647066587146').roles.find('name', 'Disco').edit({color: 'RANDOM'})
-    },5000);
+    },12000);
   
 
 })
@@ -40,7 +40,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' 1help ','OneFamily | Server ' ];
+    var setGame = [' Disco ','OneFamily | Server ' ];
     var i = -1;
     var j = 0;
     setInterval(function (){
